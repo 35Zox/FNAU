@@ -1,0 +1,140 @@
+{
+  "animatronics": {
+    "john": {
+      "enter_office": true,
+      "ignore_mask": false,
+      "jumpscare_sound": "E:\\d�veloppement\\FNAU\\john.png",
+      "night_1_AI": 0,
+      "night_2_AI": 0,
+      "night_3_AI": 0,
+      "night_4_AI": 0,
+      "night_5_AI": 0,
+      "night_6_AI": 0
+    },
+    "zwrk": {
+      "enter_office": true,
+      "icon": "E:\\d�veloppement\\FNAU\\zwrk.png",
+      "ignore_mask": false,
+      "jumpscare_sound": "E:\\d�veloppement\\FNAU\\zwrk.png",
+      "night_1_AI": 4,
+      "night_2_AI": 7,
+      "night_3_AI": 11,
+      "night_4_AI": 13,
+      "night_5_AI": 17,
+      "night_6_AI": 20,
+      "path": "1A,1B,5,1B,2A,3,2A,2B,office,1B,2A,2B,3,1B"
+    }
+  },
+  "cameras": {
+    "": {
+      "camera_states": []
+    },
+    "1A": {
+      "button_position": [ 985, 347 ],
+      "button_sprite": "1A.png",
+      "camera_states": {
+        "animatronics:zwrk": "1Avariant6.png",
+        "default": "1Avariant1.png"
+      },
+      "programmable": false
+    },
+    "1B": {
+      "button_position": [ 946, 411 ],
+      "button_sprite": "1B.png",
+      "camera_states": {
+        "animatronics:zwrk": "1Bvariant2.png",
+        "default": "1Bvariant1.png"
+      },
+      "programmable": false
+    },
+    "1C": {
+      "button_position": [ 950, 504 ],
+      "button_sprite": "1C.png",
+      "camera_states": {
+        "default": "1Cvariant1.png",
+        "variant1": "1Cvariant2.png"
+      },
+      "programmable": false
+    },
+    "2A": {
+      "button_position": [ 975, 611 ],
+      "button_sprite": "2A.png",
+      "camera_states": {
+        "animatronics:zwrk": "2Avariant2.png",
+        "default": "2Avariant1.png"
+      },
+      "programmable": false
+    },
+    "2B": {
+      "button_position": [ 975, 657 ],
+      "button_sprite": "2B.png",
+      "camera_states": {
+        "animatronics:zwrk": "2Bvariant2.png",
+        "default": "2Bvariant1.png"
+      },
+      "programmable": false
+    },
+    "3": {
+      "button_position": [ 911, 601 ],
+      "button_sprite": "3.png",
+      "camera_states": {
+        "animatronics:zwrk": "3variant2.png",
+        "default": "3variant1.png"
+      },
+      "programmable": false
+    },
+    "4A": {
+      "button_position": [ 1091, 611 ],
+      "button_sprite": "4A.png",
+      "camera_states": {
+        "default": "4Avariant1.png"
+      },
+      "programmable": false
+    },
+    "4B": {
+      "button_position": [ 1091, 659 ],
+      "button_sprite": "4B.png",
+      "camera_states": {
+        "default": "4Bvariant1.png"
+      },
+      "programmable": false
+    },
+    "5": {
+      "button_position": [ 863, 419 ],
+      "button_sprite": "5.png",
+      "camera_states": {
+        "animatronics:zwrk": "5variant2.png",
+        "default": "5variant1.png"
+      },
+      "programmable": false
+    },
+    "6": {
+      "camera_states": [],
+      "programmable": false
+    },
+    "7": {
+      "button_position": [ 1195, 433 ],
+      "button_sprite": "7.png",
+      "camera_states": {
+        "default": "7variant1.png"
+      },
+      "programmable": false
+    },
+    "camera_map": [ "camMap.png", 1035, 507 ]
+  },
+  "extras": [],
+  "office": {
+    "buttons": [],
+    "desk": false,
+    "doors": [],
+    "flashlight": false,
+    "mask": true,
+    "power": true,
+    "sprites": {
+      "default": "office.png"
+    }
+  },
+  "title_screen": {
+    "title": "Five \\nNights \\nAt the \\nUN"
+  }
+}
